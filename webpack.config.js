@@ -5,7 +5,7 @@ module.exports = {
     'script!jquery/dist/jquery.min.js',
     'script!foundation-sites/dist/foundation.min.js',
     './app/app.jsx'
-    ], 
+    ],
     externals: {
       jquery: 'jQuery'
     },
@@ -29,7 +29,8 @@ module.exports = {
       Examples: 'app/Components/Examples.jsx',
       WeatherForm: 'app/Components/WeatherForm.jsx',
       WeatherMessage: 'app/Components/WeatherMessage.jsx',
-      openWeatherMap: 'app/api/openWeatherMap.jsx'
+      openWeatherMap: 'app/api/openWeatherMap.jsx',
+      ErrorModal: 'app/Components/errorModal.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
